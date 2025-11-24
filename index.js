@@ -11,7 +11,6 @@ async function getAPI(api){
         if(!response.ok){
             throw new Error("Could not get api data")
         }
-
         const apiData = await response.json();
         return apiData;
   

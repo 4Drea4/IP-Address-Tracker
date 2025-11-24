@@ -1,6 +1,9 @@
 const searchIP = document.getElementById("search");
 const searchButton = document.getElementById("search-btn");
-
+const ipText = document.querySelector(".ip-text");
+const locationText = document.querySelector(".location-text");
+const timezoneText = document.querySelector(".timezone-text");
+const ispText = document.querySelector(".isp-text");
 
 //function to bring in api ip data
 async function getAPI(api){
@@ -13,7 +16,6 @@ async function getAPI(api){
         }
         const apiData = await response.json();
         return apiData;
-  
 }
 
 // getAPI("8.8.8.8").then(data => console.log(data)); // Testing to make sure it works
@@ -22,9 +24,22 @@ async function getAPI(api){
 searchButton.addEventListener("click", async () => {
     const userIp = searchIP.value.trim();
     const userData = await getAPI(userIp); //getting users ip from the input of their search
-    console.log("This button was clicked", userData);
+    console.log("This button was clicked", userData); //console log to ensure it was successful
+    displayDetails(userData);//making sure its pulling
+
+    console.log(ipText, locationText, timezoneText, ispText);
+
 
 });
+//"mapping" api info
+function displayDetails (apiData){
+    ipText.textContent = apiData.ip;
+    //change the location to be what the api info is
+    locationText.textContent = `${apiData.location.city}, ${apiData.location.country}`;
+    timezoneText.textContent = `${apiData.location.timezone}`;
+    ispText.textContent = apiData.isp ;
+}
+
 
 //map
 const map = L.map('map').setView([51.505, -0.09], 13);

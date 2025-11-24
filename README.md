@@ -47,3 +47,7 @@ The challenge is to build out this IP Address Tracker app and get it looking as 
 #### Post Project Review:
 
 
+#### Useful References:
+1. [Fetch Best Practices](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+2. [Event Listener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
+3. []()

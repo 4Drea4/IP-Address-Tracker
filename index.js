@@ -1,3 +1,7 @@
+const searchIP = document.getElementById("search");
+const searchButton = document.getElementById("search-btn");
+
+
 //function to bring in api ip data
 async function getAPI(api){
   const apiKey = "at_Dw02MjcDxw7tH0ttIuN7b1nlHrV1J";
@@ -13,15 +17,19 @@ async function getAPI(api){
   
 }
 
-getAPI("8.8.8.8").then(data => console.log(data));
+// getAPI("8.8.8.8").then(data => console.log(data)); // Testing to make sure it works
 
 //event listener on button
+searchButton.addEventListener("click", async () => {
+    const userIp = searchIP.value.trim();
+    const userData = await getAPI(userIp); //getting users ip from the input of their search
+    console.log(userData);
 
-
+});
 
 //map
 const map = L.map('map').setView([51.505, -0.09], 13);
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
-
+//change to pull in coordinates from API
 }).addTo(map);

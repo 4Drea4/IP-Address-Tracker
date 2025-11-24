@@ -1,1 +1,11 @@
-#map { height: 180px; }
+body{
+   
+}
+section{
+    display: flex;
+    gap: 30px;
+}
+
+#map { 
+    height:300px; 
+}

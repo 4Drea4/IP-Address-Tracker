@@ -1,17 +1,17 @@
-# IP Address Map Live Project:
+# IP Address Map Live Project
 ###### Live Link:
 
 ## Andrea Etienne
 *Monday November 24<sup>th</sup>, 2025, 9:00Am CST*
 
 ### Index:
--[Project Scope](#Scope:)
--[User Experience](#User-Experience:)
--[Project Setup](#Setup:)
--[Project Features](#Features:)
--[Project Notes](#Notes:)
--[Project Planning](#Plan)
--[Post Project](#Post-Project-Review:)
+-[Project Scope](#Scope)<br>
+-[User Experience](#User-Experience)<br>
+-[Project Setup](#Setup)<br>
+-[Project Features](#Features)<br>
+-[Project Notes](#Notes)<br>
+-[Project Planning](#Plan)<br>
+-[Post Project](#Post-Project-Review:)<br>
 
 
 #### Scope: 
@@ -27,14 +27,14 @@ The challenge is to build out this IP Address Tracker app and get it looking as 
 #### Features:
 #### Notes:
 #### Plan: 
-    ##### -Pre-Plan: 
+    Pre-Plan: 
         From a high level overview this project will require:
         1. For a user to give an input
         2. Call on the Api
         3. Display the data from the API which will require object mapping
         4. There will be a need to show the location on a map
         
-    ##### -Adjustments
+    Adjustments:
 
 #### Post Project Review:
 

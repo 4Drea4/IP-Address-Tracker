@@ -29,7 +29,6 @@ searchButton.addEventListener("click", async () => {
 
     console.log(ipText, locationText, timezoneText, ispText);
 
-
 });
 //"mapping" api info
 function displayDetails (apiData){
@@ -47,3 +46,9 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
 //change to pull in coordinates from API
 }).addTo(map);
+
+function updateMap (){
+    let latitude = apiData.latitude;
+    let longitude = apiData.longitude;
+    console.log("This is your", longitude ,"and", latitude);
+}

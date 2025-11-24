@@ -45,9 +45,10 @@ The challenge is to build out this IP Address Tracker app and get it looking as 
     Adjustments:
 
 #### Post Project Review:
-
+I had the most trouble understanding how to implement the fetched data to the live map. I was quite confused when it came time to understand just how to set the marker to the updated. 
 
 #### Useful References:
 1. [Fetch Best Practices](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 2. [Event Listener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
-3. []()
+3. [API](https://stackoverflow.com/questions/66658771/api-endpoint-dependent-on-another-one)
+4. []()

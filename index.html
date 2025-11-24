@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IP Address Tracker</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 </head>
 <body>
     <h1 class="title"> IP Address Tracker</h1>
     <input class="ipentry" id="search" placeholder="Enter IP Address Here">
-    <button class="btn-search" id="search-btn" aria-busy="live"></button>
+    <button class="btn-search" id="search-btn" aria-busy="live">> </button>
+
     <section class="IP-info" id="ipinformation">
+
         <div class="ip-address">
             <p class="ip-text">IP Address</p>
         </div>
@@ -33,5 +36,6 @@
 
 
     <script src="index.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 </body>
 </html>

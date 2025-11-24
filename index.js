@@ -47,8 +47,10 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 //change to pull in coordinates from API
 }).addTo(map);
 
-function updateMap (){
-    let latitude = apiData.latitude;
-    let longitude = apiData.longitude;
+function updateMap (apiData){
+    let latitude = apiData.location.lat;
+    let longitude = apiData.location.lng;
     console.log("This is your", longitude ,"and", latitude);
+
+    map.setView([`${latitude}, ${longitude}`]);
 }

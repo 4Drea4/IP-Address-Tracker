@@ -23,7 +23,7 @@ async function getAPI(api){
 searchButton.addEventListener("click", async () => {
     const userIp = searchIP.value.trim();
     const userData = await getAPI(userIp); //getting users ip from the input of their search
-    console.log(userData);
+    console.log("This button was clicked", userData);
 
 });
 

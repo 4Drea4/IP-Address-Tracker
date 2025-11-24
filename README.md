@@ -24,6 +24,14 @@ The challenge is to build out this IP Address Tracker app and get it looking as 
 4. See hover states for all interactive elements on the page
 
 #### Setup:
+1. Create your account for the [GEO API](https://geo.ipify.org/docs)
+2. Get your [LEAFLET API](https://leafletjs.com/)
+3. 
+
+
+
+
+
 #### Features:
 #### Notes:
 #### Plan: 

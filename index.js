@@ -26,8 +26,9 @@ searchButton.addEventListener("click", async () => {
     const userData = await getAPI(userIp); //getting users ip from the input of their search
     console.log("This button was clicked", userData); //console log to ensure it was successful
     displayDetails(userData);//making sure its pulling
-
+    updateMap(userData);
     console.log(ipText, locationText, timezoneText, ispText);
+    console.log(updateMap);
 
 });
 //"mapping" api info

@@ -99,6 +99,7 @@ h3{
     display: flex;
     gap: 30px;
     font-weight: 800;
+    min-width: 300px;
     
  }
  #item{

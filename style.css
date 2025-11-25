@@ -11,7 +11,7 @@ body{
     /* background-color: rgb(11, 18, 82); */
     background-image: url("images/pattern-bg-desktop.png");
     color: white;
-    padding: 20px;
+    padding: 10px;
     margin: 0;
     text-align: center;
     /* justify-content: center; */
@@ -33,24 +33,33 @@ header{
     align-items: center;
     justify-content: center;
     color:black;
-    width: 500px;
+   width: 500px;
+   height: 150px;
     display: flex;
-   
-    
-
+   margin: 0 auto;
+   margin-top: 20px;
+}
+.ipentry{
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
 }
 .search{
-    width: 40px;
-    height: 90px;
+    width: 30px;
+    height: 25px;
     display: flex;
     justify-content: center;
     width: 60%;
+   
 }
 .btn-search{
     background-color: black;
     color: white;
     width: 40px;
-  
+    border-radius: 40px;
+    height: 30px;
+    gap:-10px;
 }
 .ipinformation{
     border-radius: 15px;
@@ -58,19 +67,22 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    /* margin-top: 40px; */
 }
 
 section{
+    display: flex;
     gap: 30px;
     align-items: center;
     justify-content: center;
 }
 
 #map { 
-    height:400px; 
+    height:500px; 
     background-color: aliceblue;
     padding: 0;
-    margin: -40px;
+    margin-top: -80px;
+    z-index: -1;
 }
 h3{
     color: gray;

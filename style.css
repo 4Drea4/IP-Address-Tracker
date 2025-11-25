@@ -98,11 +98,18 @@ h3{
  .information-container{
     display: flex;
     gap: 30px;
+    font-weight: 800;
     
  }
  #item{
     border-right-style: solid;
-    font-weight: 800;
-    border-color:rgba(142, 142, 142, 0.382) ;
     padding-right: 20px;
+    border-color:rgba(142, 142, 142, 0.382) ;
  }
+
+ @media (max-width: 600px){
+    .section{
+        flex-direction: column;
+    }
+ }
+    

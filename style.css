@@ -9,7 +9,8 @@ body{
     padding: 20px;
     text-align: center;
     background-position: center;
-   
+    background-size: 100vh;
+    background-repeat: no-repeat;
 }
 .search{
     width: 40px;

@@ -52,7 +52,7 @@ let pin = L.marker([51.505, -0.09]).addTo(map);
 function updateMap (apiData){
     let latitude = apiData.location.lat;
     let longitude = apiData.location.lng;
-    console.log("This is your", longitude ,"and", latitude)
+    console.log("This is your", longitude ,"and", latitude, "of your IP Address")
     map.setView([latitude, longitude]);
-    marker.setLatLang([latitude, longitude]);
+    marker.setLatLng([latitude, longitude]);
 }

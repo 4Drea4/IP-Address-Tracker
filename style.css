@@ -1,27 +1,38 @@
 body{
-   
+   font-family:'Rubik', sans-serif;
+   margin: 0;
+   /* padding: 0; */
 }
 .hero{
     border-radius: 15px;
-    background-color: rgb(11, 18, 82);
+    /* background-color: rgb(11, 18, 82); */
     background-image: url("images/pattern-bg-desktop.png");
     color: white;
     padding: 20px;
+    margin: 0%;
     text-align: center;
     background-position: center;
     min-height: 300px;
-    
+    background-repeat: no-repeat;
     width: 100%;
     height: 100%;
+    border-radius: 30px;
 }
 header{
  background-image: url("path/to/your/image.jpg");
-
     width: 100%;
     height: 100%;
-  
 }
+.IP-info{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    width: 400px;
 
+}
 .search{
     width: 40px;
     height: 90px;

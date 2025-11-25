@@ -47,7 +47,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 //change to pull in coordinates from API
 }).addTo(map);
 
-let pin = L.marker([51.505, -0.09]).addTo(map);
+let pin = L.marker([13.1631, 72.5450]).addTo(map);
 
 function updateMap (apiData){
     let latitude = apiData.location.lat;

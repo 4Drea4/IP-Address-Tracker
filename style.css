@@ -2,8 +2,11 @@ body{
    font-family:'Rubik', sans-serif;
    margin: 0;
    /* padding: 0; */
+   /* display: flex; */
 }
+
 .hero{
+    
     border-radius: 15px;
     /* background-color: rgb(11, 18, 82); */
     background-image: url("images/pattern-bg-desktop.png");
@@ -26,11 +29,12 @@ header{
 .IP-info{
     background-color: white;
     border-radius: 10px;
-    display: flex;
     align-items: center;
     justify-content: center;
     color:black;
     width: 500px;
+    display: flex;
+   
 
 }
 .search{

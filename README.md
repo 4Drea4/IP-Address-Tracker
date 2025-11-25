@@ -24,10 +24,12 @@ The challenge is to build out this IP Address Tracker app and get it looking as 
 4. See hover states for all interactive elements on the page
 
 #### Setup:
-1. Create your account for the [GEO API](https://geo.ipify.org/docs)
-2. Setup according to the [LEAFLET Quickstartup](https://leafletjs.com/examples/quick-start/)
-3. 
-
+1. Create your account for the [GEO API](https://geo.ipify.org/docs).
+2. Setup according to the [LEAFLET Quickstartup](https://leafletjs.com/examples/quick-start/).
+3. Clone or download the project.
+4. Replace my api keys with your own in Index.js. 
+5. Run your project locally
+6. Test it out, enter ip addresses and test by entering various IP addresses.
 
 
 
@@ -42,7 +44,7 @@ The challenge is to build out this IP Address Tracker app and get it looking as 
         3. Display the data from the API which will require object mapping
         4. There will be a need to show the location on a map
         
-    Adjustments:
+    Adjustments: I had to make some adjustments while trying to map coordinates it was something I could nto quite understand originally so I researched and read documentation on the API site as well as walked through some of their other uses to try to understand how to coordinate the map with the data from the other api. 
 
 #### Post Project Review:
 I had the most trouble understanding how to implement the fetched data to the live map. I was quite confused when it came time to understand just how to set the marker to the updated. I appreciate typescript because when I realized what issues I was having, it was because of where I would have already known what to expect in some areas, I was attempting to call or pass the wrong thing. I then struggled with adding a pin when locations are reloaded.
@@ -51,4 +53,4 @@ I had the most trouble understanding how to implement the fetched data to the li
 1. [Fetch Best Practices](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 2. [Event Listener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
 3. [API](https://stackoverflow.com/questions/66658771/api-endpoint-dependent-on-another-one)
-4. []()
+4. [Centering](https://www.w3schools.com/css/css_align.asp)

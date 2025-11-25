@@ -53,6 +53,6 @@ function updateMap (apiData){
     let latitude = apiData.location.lat;
     let longitude = apiData.location.lng;
     console.log("This is your", longitude ,"and", latitude, "of your IP Address")
-    map.setView([latitude, longitude]);
-    marker.setLatLng([latitude, longitude]);
+    map.setView([latitude, longitude],13);
+    marker.setLatLng([latitude, longitude],13);
 }

@@ -35,7 +35,7 @@ header{
     color:black;
     width: 500px;
     display: flex;
-    /* margin-left: -80px 250px ; */
+   
     
 
 }
@@ -70,7 +70,7 @@ section{
     height:400px; 
     background-color: aliceblue;
     padding: 0;
-    margin: 0;
+    margin: -40px;
 }
 h3{
     color: gray;

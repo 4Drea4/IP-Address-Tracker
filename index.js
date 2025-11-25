@@ -4,6 +4,7 @@ const ipText = document.querySelector(".ip-text");
 const locationText = document.querySelector(".location-text");
 const timezoneText = document.querySelector(".timezone-text");
 const ispText = document.querySelector(".isp-text");
+const inputError = document.getElementById("Iperror");
 
 //function to bring in api ip data
 async function getAPI(api){
@@ -14,6 +15,7 @@ async function getAPI(api){
         if(!response.ok){
             throw new Error("Could not get api data")
         }
+    
         const apiData = await response.json();
         return apiData;
 }
@@ -28,7 +30,11 @@ searchButton.addEventListener("click", async () => {
     displayDetails(userData);//making sure its pulling
     updateMap(userData);
     
-
+    if(!searchIP.checkValidity()){
+       inputError.textContent = "This is not a proper IP address";
+       return;
+    }
+    return(searchIP);
 });
 //"mapping" api info
 function displayDetails (apiData){

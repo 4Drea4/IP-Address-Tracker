@@ -60,3 +60,4 @@ I had the most trouble understanding how to implement the fetched data to the li
 3. [API](https://stackoverflow.com/questions/66658771/api-endpoint-dependent-on-another-one)
 4. [Centering](https://www.w3schools.com/css/css_align.asp)
 5. [Borders](https://www.w3schools.com/css/css_border_sides.asp)
+6. [Errors](https://developer.mozilla.org/en-US/docs/Web/API/HTMLSelectElement/checkValidity)

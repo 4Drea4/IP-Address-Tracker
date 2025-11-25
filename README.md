@@ -1,14 +1,15 @@
 # IP Address Map Live Project
-###### Live Link: 
+###### [Live Link](https://4drea4.github.io/IP-Address-Tracker/) 
 
 ## Andrea Etienne
 *Monday November 24<sup>th</sup>, 2025, 9:00Am CST*
+![IP Tracker Image](images/IPTrackerImage.png "IP Tracker")
 
 ### Index:
 -[Project Scope](#Scope)<br>
 -[User Experience](#User-Experience)<br>
 -[Project Setup](#Setup)<br>
--[Project Features](#Features)<br>
+-[Project Technology](#Technology)<br>
 -[Project Notes](#Notes)<br>
 -[Project Planning](#Plan)<br>
 -[Post Project](#Post-Project-Review:)<br>
@@ -31,10 +32,14 @@ The challenge is to build out this IP Address Tracker app and get it looking as 
 5. Run your project locally
 6. Test it out, enter ip addresses and test by entering various IP addresses.
 
+#### Technology:
+This project is utilizing:
+1. Geolocation API
+2. Leaflet Map API
+3. HTML
+4. CSS
+5. Javascript
 
-
-
-#### Features:
 #### Notes:
 #### Plan: 
     Pre-Plan: 

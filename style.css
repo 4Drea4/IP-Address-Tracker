@@ -9,7 +9,7 @@ body{
     background-image: url("images/pattern-bg-desktop.png");
     color: white;
     padding: 20px;
-    margin: 0%;
+    margin: 0;
     text-align: center;
     background-position: center;
     min-height: 300px;
@@ -30,7 +30,7 @@ header{
     align-items: center;
     justify-content: center;
     color:black;
-    width: 400px;
+    width: 500px;
 
 }
 .search{
@@ -51,6 +51,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 section{
@@ -61,8 +62,13 @@ section{
 #map { 
     height:400px; 
     background-color: aliceblue;
+    padding: 0;
+    margin: 0;
 }
-
+h3{
+    color: gray;
+    font-size: 18px;
+}
 /* .IP-info{
    background-color: white; 
    height: 60px;

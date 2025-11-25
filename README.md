@@ -45,7 +45,7 @@ The challenge is to build out this IP Address Tracker app and get it looking as 
     Adjustments:
 
 #### Post Project Review:
-I had the most trouble understanding how to implement the fetched data to the live map. I was quite confused when it came time to understand just how to set the marker to the updated. 
+I had the most trouble understanding how to implement the fetched data to the live map. I was quite confused when it came time to understand just how to set the marker to the updated. I appreciate typescript because when I realized what issues I was having, it was because of where I would have already known what to expect in some areas, I was attempting to call or pass the wrong thing. I then struggled with adding a pin when locations are reloaded.
 
 #### Useful References:
 1. [Fetch Best Practices](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)

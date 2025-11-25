@@ -27,8 +27,7 @@ searchButton.addEventListener("click", async () => {
     console.log("This button was clicked", userData); //console log to ensure it was successful
     displayDetails(userData);//making sure its pulling
     updateMap(userData);
-    console.log(ipText, locationText, timezoneText, ispText);
-    console.log(updateMap);
+    
 
 });
 //"mapping" api info
@@ -41,17 +40,19 @@ function displayDetails (apiData){
 }
 
 
-//map
+// map
 const map = L.map('map').setView([51.505, -0.09], 13);
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
 //change to pull in coordinates from API
 }).addTo(map);
 
+let pin = L.marker([51.505, -0.09]).addTo(map);
+
 function updateMap (apiData){
     let latitude = apiData.location.lat;
     let longitude = apiData.location.lng;
-    console.log("This is your", longitude ,"and", latitude);
-
-    map.setView([`${latitude}, ${longitude}`]);
+    console.log("This is your", longitude ,"and", latitude)
+    map.setView([latitude, longitude]);
+    marker.setLatLang([latitude, longitude]);
 }

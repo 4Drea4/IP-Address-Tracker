@@ -8,10 +8,13 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 </head>
 <body>
-    <h1 class="title"> IP Address Tracker</h1>
-    <input class="ipentry" id="search" placeholder="Search for any IP address here">
+<header class="hero">
+    <h1 class="title" id="title"> IP Address Tracker</h1>
+    <div class="search-this">
+     <input class="ipentry" id="search" placeholder="Search for any IP address here">
     <button class="btn-search" id="search-btn" aria-busy="live">> </button>
-
+</div>
+</header>
     <section class="IP-info" id="ipinformation">
 
         <div class="ip-address">
@@ -31,7 +34,7 @@
             <p class="isp-text">ISP</p>
 
         </div>
-        <!-- Add something for  -->
+      
     </section>
 
     <main class="map" id="map">

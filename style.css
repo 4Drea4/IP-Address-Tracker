@@ -1,11 +1,46 @@
 body{
    
 }
+.hero{
+    border-radius: 15px;
+    background-color: white;
+    background-image: url("images/pattern-bg-desktop.png");
+    color: white;
+    padding: 20px;
+    text-align: center;
+    background-position: center;
+   
+}
+.search{
+    width: 40px;
+    height: 90px;
+}
+.btn-search{
+    background-color: black;
+    color: white;
+    width: 40px;
+  
+}
+.ipinformation{
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 section{
     display: flex;
     gap: 30px;
 }
 
 #map { 
-    height:300px; 
+    height:400px; 
+    background-color: aliceblue;
 }
+
+/* .IP-info{
+   background-color: white; 
+   height: 60px;
+    
+} */
+ 

@@ -40,7 +40,7 @@ This project is utilizing:
 4. CSS
 5. Javascript
 
-#### Notes:
+### Notes:
 #### Plan: 
     Pre-Plan: 
         From a high level overview this project will require:
@@ -49,7 +49,7 @@ This project is utilizing:
         3. Display the data from the API which will require object mapping
         4. There will be a need to show the location on a map
         
-    Adjustments: I had to make some adjustments while trying to map coordinates it was something I could not quite <br> understand originally so I researched and read documentation on the API site as well as walked through some of <br>their other uses to try to understand how to coordinate the map with the data from the other api. <br>
+    Adjustments: I had to make some adjustments while trying to map coordinates it was something I could not quite  understand originally so I researched and read documentation on the API site as well as walked through some of their other uses to try to understand how to coordinate the map with the data from the other api.
 
 #### Post Project Review
 I had the most trouble understanding how to implement the fetched data to the live map.<br> I was quite confused when it came time to understand just how to set the marker to the updated.<br> I appreciate typescript because when I realized what issues I was having, it was because of where I would have already known what to expect in some areas, I was attempting to call or pass the wrong thing.<br> I then struggled with adding a pin when locations are reloaded. I used this as an opportuntity to familiarize myself with error handling, object oriented programming, and async await.<br> I did find it a bit more challenging not using typescript, but I also enjoyed the challenges I ran into.<br> The use of two api's and learning how to get them to work with one another using Javascript object notation was particularly brain busting. <br>

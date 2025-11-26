@@ -4,7 +4,7 @@ const ipText = document.querySelector(".ip-text");
 const locationText = document.querySelector(".location-text");
 const timezoneText = document.querySelector(".timezone-text");
 const ispText = document.querySelector(".isp-text");
-const inputError = document.getElementById("Iperror");
+const inputError = document.getElementById("IpError");
 
 //function to bring in api ip data
 async function getAPI(api){
@@ -25,15 +25,19 @@ async function getAPI(api){
 //event listener on button
 searchButton.addEventListener("click", async () => {
     const userIp = searchIP.value.trim();
+
+    if(!searchIP.checkValidity()){
+        inputError.textContent = "This is not a proper IP address";
+        return;
+     }
+
+     
     const userData = await getAPI(userIp); //getting users ip from the input of their search
     console.log("This button was clicked", userData); //console log to ensure it was successful
     displayDetails(userData);//making sure its pulling
     updateMap(userData);
     
-    if(!searchIP.checkValidity()){
-       inputError.textContent = "This is not a proper IP address";
-       return;
-    }
+    
     return(searchIP);
 });
 //"mapping" api info
@@ -60,6 +64,6 @@ function updateMap (apiData){
     let longitude = apiData.location.lng;
     console.log("This is your", longitude ,"and", latitude, "of your IP Address")
     map.setView([latitude, longitude],13);
-    marker.setLatLng([latitude, longitude],13);
+    pin.setLatLng([latitude, longitude],13);
 }
 //display error when improperly inputting an ip

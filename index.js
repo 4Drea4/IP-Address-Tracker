@@ -27,11 +27,11 @@ searchButton.addEventListener("click", async () => {
     const userIp = searchIP.value.trim();
 
     if(!searchIP.checkValidity()){
-        inputError.textContent = "This is not a proper IP address";
+        alert("This is not a proper IP address") ;
         return;
      }
 
-     
+
     const userData = await getAPI(userIp); //getting users ip from the input of their search
     console.log("This button was clicked", userData); //console log to ensure it was successful
     displayDetails(userData);//making sure its pulling

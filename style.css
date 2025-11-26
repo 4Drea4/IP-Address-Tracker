@@ -112,8 +112,16 @@ h3{
  }
 
  @media (max-width: 600px){
-    .section{
-        flex-direction: column;
+    .IP-info{
+        width: 90%;
+        height: auto;
+        font-size: 12px;
+    }
+    .information-container{
+        display: flex;
+        width: auto;
+        justify-content: center;
+
     }
  }
     p{

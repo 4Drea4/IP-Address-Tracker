@@ -40,7 +40,7 @@ This project is utilizing:
 4. CSS
 5. Javascript
 
-### Notes:
+#### Notes: *It does NOT track private IP Addresses*
 #### Plan: 
     Pre-Plan: 
         From a high level overview this project will require:

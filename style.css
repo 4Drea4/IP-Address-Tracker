@@ -118,17 +118,20 @@ h3{
         font-size: 12px;
         /* border-right-style: none; */
         border-top-style: solid;
+        border: none;
     }
     .information-container{
         display: flex;
         width: auto;
         justify-content: center;
         flex-direction: column;
+      
     }
     #item{
         border-right: none;
         padding: 0px;
         gap: 5px;
+       
     }
 
  }

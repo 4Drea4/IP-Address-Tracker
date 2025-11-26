@@ -52,7 +52,7 @@ This project is utilizing:
     Adjustments: I had to make some adjustments while trying to map coordinates it was something I could nto quite understand originally so I researched and read documentation on the API site as well as walked through some of their other uses to try to understand how to coordinate the map with the data from the other api. 
 
 #### Post Project Review:
-I had the most trouble understanding how to implement the fetched data to the live map. I was quite confused when it came time to understand just how to set the marker to the updated. I appreciate typescript because when I realized what issues I was having, it was because of where I would have already known what to expect in some areas, I was attempting to call or pass the wrong thing. I then struggled with adding a pin when locations are reloaded.
+I had the most trouble understanding how to implement the fetched data to the live map. I was quite confused when it came time to understand just how to set the marker to the updated. I appreciate typescript because when I realized what issues I was having, it was because of where I would have already known what to expect in some areas, I was attempting to call or pass the wrong thing. I then struggled with adding a pin when locations are reloaded. I used this as an opportuntity to familiarize myself with error handling, object oriented programming, and async await. I did find it a bit more challenging not using typescript, but I also enjoyed the challenges I ran into. The use of two api's and learning how to get them to work with one another using Javascript object notation was particularly brain busting. 
 
 #### Useful References:
 1. [Fetch Best Practices](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)

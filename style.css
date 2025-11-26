@@ -116,13 +116,21 @@ h3{
         width: 90%;
         height: auto;
         font-size: 12px;
+        /* border-right-style: none; */
+        border-top-style: solid;
     }
     .information-container{
         display: flex;
         width: auto;
         justify-content: center;
-
+        flex-direction: column;
     }
+    #item{
+        border-right: none;
+        padding: 0px;
+        gap: 5px;
+    }
+
  }
     p{
         font-size: 16px;
